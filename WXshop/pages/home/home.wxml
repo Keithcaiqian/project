@@ -1,0 +1,22 @@
+<!-- 轮播图 -->
+<m-swiper my-class='swiper-height' list="{{banners}}"/>
+
+<!-- 推荐数据区域 -->
+<m-recommend list='{{recommends}}'/>
+
+<view class="popular">
+  <image src="/assets/home/recommend_bg.jpg" mode="widthFix"></image>
+</view>
+<!-- tab-control -->
+<view class="tab-control">
+  <view wx:for="{{tabList}}" wx:key='index'
+   data-index="{{index}}"
+   class="{{index==curIndex?'active':''}}"
+   bindtap="curSelected"
+   >
+   {{item}}
+   </view>
+</view>
+
+
+

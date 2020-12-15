@@ -1,0 +1,83 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		}
+	    ,{
+            "path" : "pages/cart/cart",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/profile/profile",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" : {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" : {
+				"navigationBarTitleText": "联系我们"
+			}
+        }
+        ,{
+            "path" : "pages/community/community",
+            "style" : {
+				"navigationBarTitleText":"社区图片"
+			}
+        }
+        ,{
+            "path" : "pages/news-detail/news-detail",
+            "style" : {
+				"navigationBarTitleText":"新闻详情"
+			}
+        }
+        ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" : {
+				"navigationBarTitleText":"商品详情"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "商城",
+		"navigationBarBackgroundColor": "#FF4500",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#999999",
+		"selectedColor":"#FF4500",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/tabbar/home.png",
+				"selectedIconPath":"static/tabbar/home_active.png"
+			},{
+				"text":"资讯",
+				"pagePath":"pages/news/news",
+				"iconPath":"static/tabbar/category.png",
+				"selectedIconPath":"static/tabbar/category_active.png"
+			},{
+				"text":"购物车",
+				"pagePath":"pages/cart/cart",
+				"iconPath":"static/tabbar/cart.png",
+				"selectedIconPath":"static/tabbar/cart_active.png"
+			},{
+				"text":"会员",
+				"pagePath":"pages/profile/profile",
+				"iconPath":"static/tabbar/profile.png",
+				"selectedIconPath":"static/tabbar/profile_active.png"
+			}
+		]
+	}
+}

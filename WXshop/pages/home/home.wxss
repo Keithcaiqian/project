@@ -1,0 +1,18 @@
+
+.swiper-height{
+  height: 390rpx;
+}
+.popular image{
+  width: 100%;
+}
+.tab-control{
+  text-align: center;
+  display: flex;
+}
+.tab-control>view{
+  flex: 1;
+  padding: 16rpx 0;
+}
+.tab-control .active{
+  border-bottom: 4rpx solid red;
+}

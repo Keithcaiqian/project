@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "m-swiper":"/components/m-swiper/m-swiper",
+    "m-recommend":"./childCop/m-recommend/m-recommend"
+  },
+  "navigationBarTitleText": "购物街"
+}

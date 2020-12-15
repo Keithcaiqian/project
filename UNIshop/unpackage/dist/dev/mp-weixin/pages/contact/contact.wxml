@@ -1,0 +1,1 @@
+<view class="contact"><view class="img"><image src="../../static/logo.png" mode></image></view><view class="phone">联系电话：12425355（点击拨打）</view><view class="address">联系地址：召唤师峡谷</view><map latitude="{{latitude}}" longitude="{{longitude}}" scale="{{scale}}"></map></view>

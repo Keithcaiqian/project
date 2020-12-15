@@ -1,0 +1,15 @@
+.recommend{
+  display: flex;
+  text-align: center;
+  padding: 40rpx 0;
+  border-bottom: 10rpx solid #eee;
+  color: #aaa;
+}
+.recommend>view{
+  flex: 1;
+  
+}
+.recommend image{
+  width: 130rpx;
+  height: 130rpx;
+}
